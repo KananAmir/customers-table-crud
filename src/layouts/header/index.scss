@@ -1,0 +1,21 @@
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+            column-gap: 20px;
+            li {
+                a {
+                    text-decoration: none;
+                    &.active {
+                        text-decoration: underline;
+                        color: chocolate;
+                    }
+                }
+            }
+        }
+    }
+}
