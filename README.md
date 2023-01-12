@@ -1,6 +1,6 @@
 # Customers Table Crud
 
-## 🔗 [**Live Demo**](https://customers-table-af202.netlify.app/customers/)
+## 🔗 [**Live Demo**](https://customers-table-af202.netlify.app/)
 ## How to start?
 
 ```
