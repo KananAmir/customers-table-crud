@@ -3,12 +3,14 @@ import { Route, Routes } from "react-router-dom";
 import AddCustomer from "../pages/add-customer";
 import CustomerList from "../pages/customers-list";
 import FavoriteCustomers from "../pages/favorite-customers";
+import HomePage from "../pages/home-page";
 
 const Routing = () => {
   return (
     <div>
       <Routes>
-        <Route path="/add-customer" element= {<AddCustomer/>} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/add-customer" element={<AddCustomer />} />
         <Route path="/customers" element={<CustomerList />} />
         <Route path="/favorite-customers" element={<FavoriteCustomers />} />
       </Routes>
